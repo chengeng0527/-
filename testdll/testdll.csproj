@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CNNvs">
+      <HintPath>..\cnn_dll\CNNvs\for_redistribution_files_only\CNNvs.dll</HintPath>
+    </Reference>
+    <Reference Include="CNNvsNative">
+      <HintPath>..\cnn_dll\CNNvs\for_redistribution_files_only\CNNvsNative.dll</HintPath>
+    </Reference>
+    <Reference Include="FANUC">
+      <HintPath>..\FOCAS_API_DEMO_VS2015_C#_FORM_V1.0.1\FOCAS_API_DEMO_VS2015_C#_FORM_V1.0.1\FANUC\bin\Debug\FANUC.exe</HintPath>
+    </Reference>
+    <Reference Include="MWArray">
+      <HintPath>..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\MWArray\v4.0_2.23.0.0__e1d84a0da19db86f\MWArray.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
